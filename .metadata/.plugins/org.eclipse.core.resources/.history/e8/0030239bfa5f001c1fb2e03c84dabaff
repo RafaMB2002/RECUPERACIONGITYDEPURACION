@@ -40,9 +40,10 @@ public class Principal {
 			lector.nextLine();
 			
 			// las notas
-			for (int j=0;j<3;j++)
+			for (int j=0;j<=3;j++)
 			{
 				System.out.println("Introduzca la nota del alumno "+nombre[i]+" ");
+				int j = 0;
 				nota[i][j]=lector.nextDouble();
 				lector.nextLine();
 			}
