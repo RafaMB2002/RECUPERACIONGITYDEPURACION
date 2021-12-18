@@ -37,14 +37,12 @@ public class Principal {
 			// el nombre
 			System.out.println("Introduzca el nombre del alumno nº "+ (i+1));
 			nombre[i]=lector.nextLine();
-			lector.nextLine();
 			
 			// las notas
 			for (int j=0;j<=3;j++);
 			{
 				System.out.println("Introduzca la nota del alumno "+nombre[i]+" ");
 				lector.nextDouble();
-				lector.nextLine();
 			}
 		}
 		//--
